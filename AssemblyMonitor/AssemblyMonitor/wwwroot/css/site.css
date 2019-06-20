@@ -41,6 +41,89 @@ body {
 
 /* Site Color Palette */
 
-.site_blue{
+a, span{
+    color:white;
+}
 
+.site_blue{
+    background: #45A29E;
+}
+
+.site_ligt_blue{
+    background: #66FCF1;
+}
+
+.site_grey{
+    background: #C5C6C7;
+}
+
+.site_smokey{
+    background: #1F2833;
+}
+
+.site_black{
+    background: #0B0C10;
+}
+
+/* Structures */
+
+/* Flex */
+.flex_container{
+    display:flex;
+}
+
+.left{
+    flex: 0 0 50%;
+}
+
+.right{
+    flex: 1;
+}
+
+/* Other */
+
+.maximize {
+    width: 100%;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    width: fill-available;
+
+    height: 100%;
+    height: -moz-available;
+    height: -webkit-fill-available;
+    height: fill-available;
+}
+
+.column {
+    height: 100%;
+    margin: 5px;
+    min-height: 600px;
+}
+
+.column_header{
+    text-align: center;
+    margin: 5px 0 15px 0;
+}
+
+#config_bar{
+    width:100%;
+    height: 30px;
+    margin: auto auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column_container{
+    text-align: center;
+}
+
+#asm_area{
+    resize: none;
+    width: 90%;
+    resize: none;
+}
+
+#reg_area{
+    width: 90%;
 }
