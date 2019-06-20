@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyMonitor", "AssemblyMonitor\AssemblyMonitor.csproj", "{BE407212-FBAD-4AD7-9B0C-58E72B40DA12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE407212-FBAD-4AD7-9B0C-58E72B40DA12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE407212-FBAD-4AD7-9B0C-58E72B40DA12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE407212-FBAD-4AD7-9B0C-58E72B40DA12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE407212-FBAD-4AD7-9B0C-58E72B40DA12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63092EB0-37C4-4CCE-961E-BF9F7F293BB1}
+	EndGlobalSection
+EndGlobal
