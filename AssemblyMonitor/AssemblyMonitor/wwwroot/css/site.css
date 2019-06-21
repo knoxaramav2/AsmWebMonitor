@@ -80,6 +80,19 @@ a, span{
     flex: 1;
 }
 
+#mem_size{
+    width:60px;
+    float:right;
+    margin-left:10px;
+    padding-left:10px;
+}
+
+#mem_out{
+    width:100%;
+    min-height: 200px;
+    resize: none;
+}
+
 /* Other */
 
 .maximize {
