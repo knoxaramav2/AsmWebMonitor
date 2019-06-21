@@ -39,5 +39,9 @@ namespace AssemblyMonitor.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        public IActionResult Registers()
+        {
+            return View();
+        }
     }
 }
