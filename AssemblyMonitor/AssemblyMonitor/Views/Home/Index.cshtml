@@ -8,10 +8,13 @@
         <option>x86</option>
         <option>KCC AMD64</option>
     </select>
-    <div>
-        <button>Load File</button> &emsp;
-        <span id="file_id">Please Select a File</span>
-    </div>
+
+    <input id="file_upload" type="file"
+        accept=".asm,.kcc,.s" 
+        onchange="loadFile(this)"/>
+    
+        
+    
     
 </div>
 <div>
@@ -38,3 +41,32 @@
         </div>
     </div>
 </div>
+
+<script>
+
+    function loadFile(input) {
+        if (input.files === null) {
+            alert("File upload not supported by this browser");
+            return;
+        }
+
+        if (input.files[0] === null) {
+            console.log("No file selected");
+            return;
+        }
+
+        let f = input.files[0];
+        let fileReader = new FileReader();
+        var asm = document.getElementById('asm_area');
+
+        fileReader.onload = (function (f) {
+            return function (e) {
+                asm.value = this.result;
+            }
+        })(f);
+
+        fileReader.readAsText(f)
+
+    }
+
+</script>
